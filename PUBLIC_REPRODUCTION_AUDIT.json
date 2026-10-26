@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "tables_byte_identical": [
+    "Table_II.csv",
+    "Table_III.csv",
+    "Table_IV_and_S11.csv",
+    "Table_S12.csv",
+    "Table_S13.csv",
+    "Table_S14.csv",
+    "Table_S15.csv",
+    "Table_S4.csv",
+    "Table_S6.csv",
+    "Table_S8.csv",
+    "Table_S9.csv"
+  ],
+  "figures_pixel_identical": [
+    "fig1.png",
+    "fig2.png",
+    "fig3.png",
+    "fig4.png",
+    "fig5.png",
+    "figS1_anchor_distributions.png",
+    "figS2_reported_risk_coverage.png",
+    "figS3_S7_image_evidence.png",
+    "figS4_anchor_image_evidence.png",
+    "figS5_S10_image_evidence.png"
+  ],
+  "source_inputs_unchanged": true,
+  "private_human_photographs_included": false,
+  "full_manuscript_included": false,
+  "repository_url": "https://github.com/xiaofeizi1013-hue/blindguide-stereo-measurement-v26",
+  "DOI": null,
+  "commands": [
+    {
+      "script": "analyze_pairs.py",
+      "exit_code": 0,
+      "seconds": 1.07
+    },
+    {
+      "script": "analyze_reports_anchors.py",
+      "exit_code": 0,
+      "seconds": 1.03
+    },
+    {
+      "script": "verify_packet.py",
+      "exit_code": 0,
+      "seconds": 0.81
+    },
+    {
+      "script": "verify_reset.py",
+      "exit_code": 0,
+      "seconds": 0.74
+    },
+    {
+      "script": "verify_reports_anchors.py",
+      "exit_code": 0,
+      "seconds": 1.16
+    },
+    {
+      "script": "verify_paired.py",
+      "exit_code": 0,
+      "seconds": 0.86
+    },
+    {
+      "script": "verify_roi_inputs.py",
+      "exit_code": 0,
+      "seconds": 0.73
+    },
+    {
+      "script": "reproduce_tables.py",
+      "exit_code": 0,
+      "seconds": 0.72
+    },
+    {
+      "script": "figure_evidence.py",
+      "exit_code": 0,
+      "seconds": 3.31
+    },
+    {
+      "script": "figure_metrics.py",
+      "exit_code": 0,
+      "seconds": 1.92
+    },
+    {
+      "script": "figure_reset.py",
+      "exit_code": 0,
+      "seconds": 1.24
+    },
+    {
+      "script": "figures_reports_anchors.py",
+      "exit_code": 0,
+      "seconds": 1.57
+    }
+  ]
+}

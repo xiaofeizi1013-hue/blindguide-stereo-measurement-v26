@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these reproducibility materials."
+title: "Reproducibility materials for Calibration and Tail Errors in Stereo Range Measurement"
+version: "v26"
+date-released: "2026-10-26"
+authors:
+  - family-names: Cheng
+    given-names: Yifei
+    orcid: "https://orcid.org/0009-0006-1821-7939"
+  - family-names: Zeng
+    given-names: Yilin
+  - family-names: Sun
+    given-names: Jiantong
+repository-code: "https://github.com/xiaofeizi1013-hue/blindguide-stereo-measurement-v26"
+url: "https://github.com/xiaofeizi1013-hue/blindguide-stereo-measurement-v26"
